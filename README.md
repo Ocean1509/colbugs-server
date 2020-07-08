@@ -31,6 +31,6 @@ password： myquant@123
     * POST /report
 
 * 后台可视化
-   * GET /api/nums： 获取错误条数
-   * GET /api/all:   获取所有错误，支持分页，分类
-   * GET /detail/:id: 获取错误详情
+    * GET /api/nums： 获取错误条数
+    * GET /api/all:   获取所有错误，支持分页，分类
+    * GET /detail/:id: 获取错误详情
