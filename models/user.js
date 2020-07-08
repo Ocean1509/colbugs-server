@@ -3,7 +3,7 @@ const Schema = mongoose.Schema;
 const bcrypt = require('bcrypt');
 
 const UserSchema = new Schema({
-  name: {
+  username: {
     type: String,
     unique: true,
     require: true
@@ -14,6 +14,12 @@ const UserSchema = new Schema({
   },
   token: {
     type: String
+  },
+  create_at: {
+      type: Number
+  },
+  type: { // 1: 管理员，2: 运营人员   方便后续拓展
+      type: Number
   }
 });
 

@@ -9,12 +9,17 @@
   "author": "Nickj",
   "license": "ISC",
   "dependencies": {
-    "bcrypt": "^0.8.7",
+    "bcrypt": "^5.0.0",
     "body-parser": "^1.15.2",
+    "cors": "^2.8.5",
     "express": "^4.14.0",
+    "http-errors": "^1.8.0",
     "jsonwebtoken": "^7.1.9",
+    "log4": "^3.1.0",
+    "log4js": "^6.3.0",
     "mongoose": "^4.7.1",
     "morgan": "^1.7.0",
+    "node-uuid": "^1.4.8",
     "passport": "^0.3.2",
     "passport-http-bearer": "^1.0.1"
   }
