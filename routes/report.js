@@ -6,7 +6,8 @@ const Report = require('../models/report');
 const Project = require('../models/project')
 const router = express.Router();
 const bodyParser = require('body-parser');
-const { Logger } = require('log4js');
+const log4js = require('./middleware/logs')
+const Logger = log4js.getLogger() //根据需要获取logger
 const parser = bodyParser.json({
     type: 'text/plain'
 })
